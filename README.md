@@ -216,7 +216,7 @@ int main()
  printf("前標:%.1f\n",averageTop);
 }
 ```
-# week03
+# WEEK03
 ## week03-1
 ```C
 #include <stdio.h>
