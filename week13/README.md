@@ -16,3 +16,18 @@ void draw(){
   text("還剩下:"+hh+":"+mm+":"+ss,100,300);
 }
 ```
+```C
+void setup(){
+  size(1024, 400);
+}
+void draw(){
+  if(mousePressed)background(15, 162, 249);
+  else background(250, 241, 255);
+  textSize(50);
+  text(a,100,100);
+}
+int a=0;
+void mousePressed(){
+  a++;
+}
+```
